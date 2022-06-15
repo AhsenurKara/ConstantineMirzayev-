@@ -1,9 +1,6 @@
 package pojo.got;
-
 import lombok.Getter;
 import lombok.Setter;
-import pojo.got.RankPojo;
-
 import java.util.List;
 @Getter
 @Setter

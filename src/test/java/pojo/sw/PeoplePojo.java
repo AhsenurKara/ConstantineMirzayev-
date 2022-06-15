@@ -1,14 +1,10 @@
 package pojo.sw;
 import lombok.Getter;
 import lombok.Setter;
-
 import java.util.List;
-
 @Getter
 @Setter
-
 public class PeoplePojo {
-
     private int count;
     private String next;
     private int previous;
@@ -29,5 +25,4 @@ public class PeoplePojo {
     private String created;
     private String edited;
     private String url;
-
 }

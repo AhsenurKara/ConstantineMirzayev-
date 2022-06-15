@@ -1,9 +1,7 @@
 package pojo.sw;
 import lombok.Getter;
 import lombok.Setter;
-
 import java.util.List;
-
 @Getter
 @Setter
 public class StarshipPojo {
@@ -29,6 +27,5 @@ public class StarshipPojo {
     private List<String> created;
     private List<String> edited;
     private String url;
-
 }
 

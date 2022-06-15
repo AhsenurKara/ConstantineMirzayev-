@@ -20,5 +20,4 @@ public class CharactersPojo {
     private int createdAt;
     private int updatedAt;
     private int __v;
-
 }

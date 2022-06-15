@@ -9,8 +9,7 @@ import java.util.List;
 @Setter
 
 public class HousesPojo {
-    /*
-     */
+
     private List<String> titles;
     private List<String> overlords;
     private List<String> ancestralWeapon;
