@@ -36,7 +36,7 @@ public class DeserializationGOT {
     }
 
     @Test
-    public void bookChar() throws IOException {
+    public void getBookCharacters() throws IOException {
         HttpResponse response = HttpClientUtils.getGetResponse("https://api.got.show/api/book/characters/");
 
         ObjectMapper objectMapper = new ObjectMapper();
@@ -48,7 +48,7 @@ public class DeserializationGOT {
     }
 
     @Test
-    public void getLocation() throws IOException {
+    public void getLocations() throws IOException {
         HttpResponse response = HttpClientUtils.getGetResponse("https://api.got.show/api/book/characterlocations");
 
         ObjectMapper objectMapper = new ObjectMapper();
