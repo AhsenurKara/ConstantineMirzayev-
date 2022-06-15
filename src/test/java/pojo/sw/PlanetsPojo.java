@@ -1,6 +1,8 @@
 package pojo.sw;
 import lombok.Getter;
 import lombok.Setter;
+
+import java.util.HashMap;
 import java.util.List;
 @Getter
 @Setter
@@ -9,7 +11,7 @@ public class PlanetsPojo {
     private String next;
     private int previous;
     private List<Object> results;
-    private List<String> name;
+    private HashMap name;
     private int rotation_period;
     private int orbital_period;
     private int diameter;
